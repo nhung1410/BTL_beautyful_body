@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Screen_2"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/bmi"
+            android:layout_marginLeft="30pt"/>
+
+        <TextView
+            android:id="@+id/txt_chiSoBMI"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="Đo chỉ số BMI"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/bmr"
+            android:layout_marginLeft="30pt"/>
+
+        <TextView
+            android:id="@+id/txt_chiSoBMR"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Đo chỉ số BMR"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/nhipsinhoc"
+            android:layout_marginLeft="30pt"/>
+
+        <TextView
+            android:id="@+id/txt_nhipSinhHoc"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="Nhịp sinh học"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/nhatky"
+            android:layout_marginLeft="30pt"/>
+
+        <TextView
+            android:id="@+id/txt_nhatKy"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="Nhật ký"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</LinearLayout>

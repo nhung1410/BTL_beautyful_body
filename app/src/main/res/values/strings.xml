@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BTL_beautyful_body</string>
+    <string name="btn_batDau">Bắt đầu</string>
+    <string name="phone">123456789</string>
+    <string name="txt_mail">123@gmail.com</string>
+    <string-array name="arrGioiTinh">
+        <item>Nam</item>
+        <item>Nữ</item>
+    </string-array>
+    <string-array name="arrHoatDong">
+        <item>Nếu bạn rất ít / không vận động (gần như không tập luyện, làm việc văn phòng)</item>
+        <item>Nếu bạn vận động nhẹ (lao động / tập luyên nhẹ 1-3 ngày / 1 tuần)</item>
+        <item>Nếu bạn vận động vừa phải (lao động / tập luyện cường độ trung bình, 3-5 ngày / 1 tuần</item>
+        <item>Nếu bạn vận động cao (lao động/ tập luyện khá nặng 6-7 ngày một tuần)</item>
+        <item>Nếu bạn vận động vô cùng cao (Lao động/tập luyên rất nặng, 6-7 ngày một tuần)</item>
+    </string-array>
+</resources>
